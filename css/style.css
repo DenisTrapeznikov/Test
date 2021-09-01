@@ -1,278 +1,273 @@
 .Face-p 
-/* Общие параметры страницы */
-{
-    margin:0 auto 10px;
-    background-color:#f7f7f7;
-    background:url("/pict/fone.png");
-    font-family: "Gill Sans", sans-serif;
-    font-size:12px;
+/* Общие параметры страницы */ {
+  margin: 0 auto 10px;
+  background-color: #f7f7f7;
+  background: url("../pict/fone.png");
+  font-family: "Gill Sans", sans-serif;
+  font-size: 12px;
 }
 
 .Face-p__head-line 
-/* Параметры красной линии над шапкой сайта */
-{
-    background-color:#ec0000;
-    height:5px;
-    width:100%;
+/* Параметры красной линии над шапкой сайта */ {
+  background-color: #ec0000;
+  height: 5px;
+  width: 100%;
 }
 
 .Face-p__head
-/* Пареметры блока лого и поиска */
-{
-    height:60px;
-    margin:30px auto 0;
-    width: 1280px;
-    border-radius: 10px;
-    background-color:#ff000000;
-    border:2px solid #a50404;
+/* Пареметры блока лого и поиска */ {
+  height: 60px;
+  margin: 30px auto 0;
+  width: 1280px;
+  border-radius: 10px;
+  background-color: #ff000000;
+  border: 2px solid #a50404;
 }
 
 .Face-p__logo_img
-/* Параметры логотипа */
-{
-    width: 350px; 
-    border: none;
-    float: left; 
-    margin:10px auto 0;
-    margin-left: 10px
+/* Параметры логотипа */ {
+  width: 350px;
+  border: none;
+  float: left;
+  margin: 10px auto 0;
+  margin-left: 10px;
 }
 
 .Face-p__search
-/* Параметры блока поиска */
-{
-    float:right;
-    margin-top:13px;
-    margin-right:13px;
+/* Параметры блока поиска */ {
+  float: right;
+  margin-top: 13px;
+  margin-right: 13px;
 }
 
 .Face-p_search__input
-/* Задаем встроенный элемент*/
-{
-    display:inline-block;
+/* Задаем встроенный элемент*/ {
+  display: inline-block;
 }
 
 .b-input
-/* Цвет окна поиска */
-{
-    background-color: #f8f8f8;
-    border:1px solid #696969;
+/* Цвет окна поиска */ {
+  background-color: #f8f8f8;
+  border: 1px solid #696969;
 }
 
 .b-input_search
-/* Размер поля ввода для поиска */
-{
-    height:32px;
-    padding:0 10px;
-    width:135px;
+/* Размер поля ввода для поиска */ {
+  height: 32px;
+  padding: 0 10px;
+  width: 135px;
 }
 .Search-button
-/* Параметры кнопки поиска */
-{
-    color:#fefefe;
-    height:32px;
-    padding:0 12px;
-    line-height:33px;
-    cursor:pointer;
-    background-color:#d32424;
-    border:1px solid #696969;
+/* Параметры кнопки поиска */ {
+  color: #fefefe;
+  height: 32px;
+  padding: 0 12px;
+  line-height: 33px;
+  cursor: pointer;
+  background-color: #d32424;
+  border: 1px solid #696969;
 }
 
 .Face-p__table
-/* Размер и смещение блока меню навигации */
-{
-    width: 1280px;
-    margin: 15px auto 0; 
+/* Размер и смещение блока меню навигации */ {
+  width: 1280px;
+  margin: 15px auto 0;
 }
 
 .Face-p-table__menu
-/* Размер и смещение меню навигации */
-{
-    margin:0;
-    padding:0;
-    list-style:none; 
-    width:100%;
-    display:table;
-    table-layout: fixed;  
+/* Размер и смещение меню навигации */ {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  display: table;
+  table-layout: fixed;
 }
 
 .b-link_menu
-/* Параметры надписей меню навигации */
-{
-    text-align:center;
-    color:#ffffff;
-    cursor:pointer;
-    font-size:14px;
-    height:38px;
-    background-color:#00000093;
-    line-height:38px;
-    border: 1px solid #a50404;
-    display:table-cell;
-    text-decoration: none;
+/* Параметры надписей меню навигации */ {
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  height: 38px;
+  background-color: #00000093;
+  line-height: 38px;
+  border: 1px solid #a50404;
+  display: table-cell;
+  text-decoration: none;
 }
 
 .b-link_menu:hover 
-/* Изменение цвета ячеек меню навигации при наведении курсора */
-{
-    text-decoration: none; /* Убираем подчёркивание */
-    color: #000000; /* Цвет ссылки */ 
-    background: #ff0000; /* Цвет фона */
+/* Изменение цвета ячеек меню навигации при наведении курсора */ {
+  text-decoration: none; /* Убираем подчёркивание */
+  color: #000000; /* Цвет ссылки */
+  background: #ff0000; /* Цвет фона */
 }
 
 .b-link_menu_active
-/* Параметры кнопки Home */
-{
-    color:#000000;
-    background-color:#ff0000;
-    border:1px solid #a50404;
+/* Параметры кнопки Home */ {
+  color: #000000;
+  background-color: #ff0000;
+  border: 1px solid #a50404;
 }
 
 .b-link_menu_active:hover 
-/* Изменение цвета ячейки Home при наведении курсора */
-{
-    text-decoration: none; /* Убираем подчёркивание */
-    color: #ff0000; /* Цвет ссылки */ 
-    background: #8d0707; /* Цвет фона */
+/* Изменение цвета ячейки Home при наведении курсора */ {
+  text-decoration: none; /* Убираем подчёркивание */
+  color: #ff0000; /* Цвет ссылки */
+  background: #8d0707; /* Цвет фона */
 }
 
 .Face-p__VPO205
-/* Параметры блока с изображением ВПО 205 */
-{
-    width: 1280px;
-    margin: 15px auto 60px;
-    border:1px solid #a50404;
-    overflow: hidden; /* Скрываем всё за контуром */
+/* Параметры блока с изображением ВПО 205 */ {
+  width: 1280px;
+  margin: 15px auto 60px;
+  border: 1px solid #a50404;
+  overflow: hidden; /* Скрываем всё за контуром */
 }
 
 .Face-p-VPO205__img
-/* Параметры изображения ВПО 205 */
-{
-    width: 1280px;
-    transition: 2s; /* Время эффекта */
-    display: block; /* Убираем небольшой отступ снизу */
+/* Параметры изображения ВПО 205 */ {
+  width: 1280px;
+  transition: 2s; /* Время эффекта */
+  display: block; /* Убираем небольшой отступ снизу */
 }
-   
+
 .Face-p-VPO205__img:hover
-/* Настройка масштабирования изображения ВПО205 при наведении курсора */
-{
-    transform: scale(1.05); /* Увеличиваем масштаб */
+/* Настройка масштабирования изображения ВПО205 при наведении курсора */ {
+  transform: scale(1.05); /* Увеличиваем масштаб */
 }
 
 .Face-p__top-mid-line 
-/* Параметры красной разделительной линии сверху*/
-{
-    background-color:#ec0000;
-    height:1px;
-    width: 1280px;
-    margin: 30px auto 0;
+/* Параметры красной разделительной линии сверху*/ {
+  background-color: #ec0000;
+  height: 1px;
+  width: 1280px;
+  margin: 30px auto 0;
 }
 
 .Face-p__bot-mid-line 
-/* Параметры красной разделительной линии снизу*/
-{
-    background-color:#ec0000;
-    height:1px;
-    width: 1280px;
-    margin: 240px auto 0;
+/* Параметры красной разделительной линии снизу*/ {
+  background-color: #ec0000;
+  height: 1px;
+  width: 1280px;
+  margin: 240px auto 0;
 }
 
 .Face-p__text-box
-/* Размер и положение блока текста */
-{
-    width: 1280px;
-    height:250px;
-    margin: 15px auto -40px;
+/* Размер и положение блока текста */ {
+  width: 1280px;
+  height: 250px;
+  margin: 15px auto -40px;
 }
 
 .Face-p-text-box__img-left
-/* Расположение блока изображения слева*/
-{ 
-    float: left; 
+/* Расположение блока изображения слева*/ {
+  float: left;
 }
 
 .Face-p-text-box__img-right
-/* Расположение блока изображения справа*/
-{ 
-    float: right; 
+/* Расположение блока изображения справа*/ {
+  float: right;
 }
 
 .Face-p-text-box-img__pict
-/* Параметры изображений в блоке */
-{
-    width: 200px;
-    margin: 15px auto 0;
-    transition: 0.5s; /* Время эффекта */
-    display: block; /* Убираем небольшой отступ снизу */
-    border: 5px solid #ec0000;
+/* Параметры изображений в блоке */ {
+  width: 200px;
+  margin: 15px auto 0;
+  transition: 0.5s; /* Время эффекта */
+  display: block; /* Убираем небольшой отступ снизу */
+  border: 5px solid #ec0000;
 }
 
 .Face-p-text-box-img__pict:hover
-/* Настройка увеличения масштаба */
-{
-    transform: scale(2);
+/* Настройка увеличения масштаба */ {
+  transform: scale(2);
 }
 
 .Face-p-text-box__text-right1
-/* Расположение текста справа1 */
-{
-    font-family: "Gill Sans", sans-serif;
-    font-size:17px;
-    text-align:left;
-    color:#ffffff;
-    float:right;
-    margin-top:-160px;
-    margin-left:250px;
+/* Расположение текста справа1 */ {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 17px;
+  text-align: left;
+  color: #ffffff;
+  float: right;
+  margin-top: -160px;
+  margin-left: 250px;
 }
 
 .Face-p-text-box__text-left1
-/* Расположение текста слева1 */
-{
-    font-family: "Gill Sans", sans-serif;
-    font-size:17px;
-    text-align:left;
-    color:#ffffff;
-    float:left;
-    margin-top:-140px;
-    margin-right:250px;
+/* Расположение текста слева1 */ {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 17px;
+  text-align: left;
+  color: #ffffff;
+  float: left;
+  margin-top: -140px;
+  margin-right: 250px;
 }
 
 .Face-p-text-box__text-right2
-/* Расположение текста справа2 */
-{
-    font-family: "Gill Sans", sans-serif;
-    font-size:17px;
-    text-align:left;
-    color:#ffffff;
-    float:right;
-    margin-top:100px;
-    margin-right:300px;
+/* Расположение текста справа2 */ {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 17px;
+  text-align: left;
+  color: #ffffff;
+  float: right;
+  margin-top: 100px;
+  margin-right: 300px;
 }
 
 .Face-p-text-box__text-right3
-/* Расположение текста справа3 */
-{
-    font-family: "Gill Sans", sans-serif;
-    font-size:17px;
-    text-align:left;
-    color:#ffffff;
-    float:right;
-    margin-top:-130px;
-    margin-left:250px;
+/* Расположение текста справа3 */ {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 17px;
+  text-align: left;
+  color: #ffffff;
+  float: right;
+  margin-top: -130px;
+  margin-left: 250px;
 }
 
-.Face-p__footer
-{
-    height:60px;
-    margin:100px auto 0;
-    width: 1280px;
-    border-radius: 10px;
-    background-color:#ff000000;
+.Face-p__footer {
+  height: 60px;
+  margin: 100px auto 0;
+  width: 1280px;
+  border-radius: 10px;
+  background-color: #ff000000;
 }
 
-.Face-p-logo-img__footer
-{
-    width: 350px; 
-    border: none;
-    float: right; 
-    margin:10px auto 0;
-    margin-left: 10px
+.Face-p-logo-img__footer {
+  width: 350px;
+  border: none;
+  float: right;
+  margin: 10px auto 0;
+  margin-left: 10px;
+}
+.section {
+  display: flex;
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: center;
+}
+.section__wrapper {
+  border-top: 1px solid #8d0707;
+  max-width: 1280px;
+  display: flex;
+}
+.section--left-img {
+  flex-direction: row;
+}
+.section--right-img {
+  flex-direction: row-reverse;
+}
+.section__text {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 17px;
+  text-align: left;
+  color: #ffffff;
+}
+.section__img {
 }
